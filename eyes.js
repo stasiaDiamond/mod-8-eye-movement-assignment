@@ -9,7 +9,8 @@ document.onmousemove = (event) => {
   balls[0].style.top = y;
   balls[0].transform = 'translate(-' + x + ',-' + y + ')';
 
-  // * second eye: only thing i've done 
+  // * second eye
+  // * .transform property
   balls[1].style.left = x;
   balls[1].style.top = y;
   balls[1].transform = 'translate(-' + x + ',-' + y + ')';
